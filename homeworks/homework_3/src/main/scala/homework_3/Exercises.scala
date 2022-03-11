@@ -50,7 +50,6 @@ object Exercises {
     def max2(xs: Seq[Int]): Seq[Int] = if (xs.isEmpty) Seq() else Seq(xs.max)
 
     def max3(xs: Seq[Int]): Option[Int] = if (xs.isEmpty) None else Some(xs.max)
-
     /**
      * Задание №3
      * Допустим дана функция sumIntegers, которая умеет суммировать числа.
