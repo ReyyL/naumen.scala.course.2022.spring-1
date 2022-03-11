@@ -55,6 +55,7 @@ object Exercises {
      * Задание №3
      * Допустим дана функция sumIntegers, которая умеет суммировать числа.
      */
+
     def sumIntegers[CollectionType <: Iterable[Int]](xs: CollectionType): Int = xs.sum
 
     /**

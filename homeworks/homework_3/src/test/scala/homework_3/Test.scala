@@ -4,7 +4,8 @@ import utest._
 
 object Test extends TestSuite{
 
-    val tests = Tests{
+    val tests = Tests {
+
         val trueStr = "правда"
         val falseStr = "ложь"
 
